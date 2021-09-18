@@ -1,0 +1,6 @@
+.college-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4.668rem 3.813rem;
+    margin-top: 4.293rem;
+}

@@ -1,0 +1,9 @@
+.college-item {
+    height: 23.563rem;
+    padding: 0 0 0.625rem;
+    border-radius: 3.8px;
+    box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+    border: solid 0.2px var(--dark-grey);
+    background-color: var(--white-three);
+    position: relative;
+}

@@ -1,0 +1,130 @@
+.info {
+    height: 10rem; 
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.title {
+    margin: 1.125rem 0.688rem 0.688rem 1.063rem;
+    font-size: 1.156rem;
+    font-weight: bold;
+    line-height: 0.97;
+}
+
+.rating i {
+    color: #444;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.original-price {
+    margin: 1.225rem 0.8rem 0.813rem 0.5rem;
+    text-decoration: line-through;
+}
+
+/* Discount tag  */
+#content{
+    /* margin:10px auto; */
+    margin: 0.75rem 1.688rem 0.75rem 0.25rem;
+    background:#F7F7F1;
+    /* height:200px; */
+    height: 0.875rem;
+    /* width:70%; */
+    width: 1.813rem;
+    border-radius:8px;
+    box-shadow:0 1px 0 rgba(0,0,0,.1);
+}
+.discount-label {
+    /* padding:8px;  */
+    position:relative;
+    float:left;
+    /* margin-top:35px; */
+    /* margin-left:60px; */
+    width: 1.813rem;
+    border-radius:0 4px 4px 0;
+}
+.discount-label:after { 
+    right: 100%; 
+    border: solid transparent; content: " "; 
+    height: 0; 
+    width: 0; 
+    position: absolute;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 0.66rem; 
+    top: 50%; 
+    margin-top: -0.66rem;
+} 
+.discount-label:before {
+    content: '';
+    z-index: 2;
+    position: absolute;
+    top: 35%;
+    right: 85%;
+    width: 7px;
+    height: 7px;
+    opacity: .95;
+    background: var(--white-three);
+    border-radius: 7px;
+    box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+}
+.discount-label span {
+    text-align:center;
+    margin: 0 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.64;
+    color: var(--white-three);
+}
+.red{ 
+background-color:#dd1c26; 
+}
+.red:after{ 
+border-right-color: #dd1c26;
+}
+
+
+.nearest-place-primary {
+    margin: 0rem 0.375rem 0rem 1.063rem;
+}
+
+.nearest-place-secondary {
+    margin: 0rem 0.375rem 0rem 0rem;
+}
+
+.discounted-price {
+    margin: 0.188rem 1.688rem 0rem 0rem;
+    font-size: 1.781rem;
+    font-weight: bold;
+    line-height: 0.89;
+    color: #dd1c26;
+}
+.discounted-price span {
+    font-size: 1.4rem;
+}
+
+.famous-nearest-place {
+    margin: -0.4rem 3.625rem 0.563rem 1.063rem;
+}
+
+.blue-ribbon {
+    width: 21.688rem;
+    height: 2.188rem;
+    padding-left: 1.063rem;
+    background-color: #ccf5e7;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.amenity {
+    margin: 0.5rem 1.688rem 0.875rem 0.438rem;
+}
+
+.dot {
+    width: 0.25rem;
+    height: 0.25rem;
+    margin: 0.5rem 0rem 1rem -1.2rem;
+    background-color: #37b396;
+    border-radius: 50%;
+}

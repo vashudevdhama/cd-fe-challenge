@@ -1,0 +1,46 @@
+.row-1, .row-1-left, .row-1-right {
+    display: flex;
+    flex-direction: row;
+}
+.row-1 {
+    justify-content: space-between;
+}
+.row-1-left, .row-1-right {
+    justify-content: flex-start;
+    align-items: center;
+}
+.row-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.text-grey {
+    color: #adadad;
+    font-weight: 500;
+}
+
+.text-dark-grey {
+    color: var(--dark-grey);
+}
+
+.text-bold {
+    font-size: 0.844rem;
+    font-weight: bold;
+    line-height: 1.33;
+}
+
+.text-myriad {
+    margin: 0rem 1.688rem 0rem 7.625rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.688rem;
+    font-weight: normal;
+    line-height: 1.64;
+    text-align: end;
+}
+
+.text-green {
+    color: #4bb89e;
+}
+
+.text-blue {
+    color: #1999d2;
+}

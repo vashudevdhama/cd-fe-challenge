@@ -1,0 +1,13 @@
+.container {
+    width: 90rem;
+    margin: auto;
+    height: 62.188rem;
+    padding: 3.063rem 3.125rem 2rem 3.188rem;
+    background-color: var(--white-three);
+}
+
+.heading {
+    font-size: 1.156rem;
+    font-weight: 500;
+    line-height: 0.97;
+}

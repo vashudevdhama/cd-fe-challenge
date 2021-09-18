@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white-three: #ffffff;
+    --dark-grey: #444444;
+    --arrows-size: 1.5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: var(--dark-grey);
 }
