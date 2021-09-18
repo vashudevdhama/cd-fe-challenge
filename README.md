@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e367001c-86ac-440c-bce2-2be67da029e5/deploy-status)](https://app.netlify.com/sites/cd-fe-challenge/deploys)
+
 ### Live link: [https://cd-fe-challenge.netlify.app/](https://cd-fe-challenge.netlify.app/)
 
 ### `yarn`
